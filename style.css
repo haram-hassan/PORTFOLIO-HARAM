@@ -319,3 +319,58 @@ h2 {
   box-shadow: 0 0 20px #a78bfa55;
 }
 
+
+#parcours {
+  padding: 60px 20px;
+  background-color:  #d94ff1;
+}
+
+#parcours h2 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #6a0dad;
+  margin-bottom: 40px;
+}
+
+.parcours-horizontal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.parcours-card {
+  background: #ffffff;
+  border: 2px solid #d9b3ff;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  width: 350px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.parcours-card:hover {
+  transform: translateY(-5px);
+}
+
+.parcours-card .icon {
+  font-size: 2.2em;
+  margin-right: 20px;
+  color: #6a0dad;
+}
+
+.parcours-card .content h3 {
+  margin: 0 0 10px;
+  font-size: 1.2em;
+  color: #6a0dad;
+}
+
+.parcours-card .content p {
+  margin: 0;
+  color: #444;
+  font-size: 0.95em;
+}
+
+
+
